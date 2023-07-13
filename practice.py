@@ -44,3 +44,23 @@ listdict = {
 print(dictlist)
 print(listdict)
 
+charizard = {
+    'id': 6,
+    'name': 'Charizard',
+    'health': 150,
+    'types': ['fire', 'flying'],
+    'weaknesses': ['rock', 'electric', 'water']
+}
+
+charmeleon = {
+    'id': 5,
+    'name': 'Charmeleon',
+    'health': 100,
+    'types': ['fire'],
+    'weaknesses': ['rock', 'ground', 'water']
+}
+
+pokemon = [charizard, charmeleon]
+
+import random
+print(pokemon[random.randint(0,1)])
